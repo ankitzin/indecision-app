@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Option extends Component {
   render() {
     return (
-      <div>Option</div>
+        <p className="card-text">{this.props.value}</p>
     )
   }
 }
